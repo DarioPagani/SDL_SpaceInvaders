@@ -17,7 +17,7 @@ include_directories(${SDL2_IMAGE_INCLUDE_DIR})
 set(SDL_WRAP src/sdlWrap/Texture.hpp src/sdlWrap/Exception.hpp src/sdlWrap/Exception.cpp src/sdlWrap/Texture.cpp src/sdlWrap/sdlWrap.hpp src/sdlWrap/Window.cpp src/sdlWrap/Window.hpp src/sdlWrap/TextureUtilis.cpp src/sdlWrap/EventHanlder.hpp src/sdlWrap/utils.cpp src/sdlWrap/string/Font.cpp src/sdlWrap/string/Font.hpp)
 set(PHYSIC src/physicSystem/Object.hpp src/physicSystem/Object.cpp src/physicSystem/SolidObject.cpp src/physicSystem/SolidObject.hpp src/physicSystem/CollisionHandler.hpp)
 
-set(SOURCE_FILES src/main.cpp src/game/game.cpp src/game/game.hpp src/game/handlers/handlers.cpp src/game/handlers/handlers.hpp)
+set(SOURCE_FILES src/main.cpp src/game/game.cpp src/game/game.hpp src/game/handlers/handlers.cpp src/game/handlers/handlers.hpp src/game/handlers/ShootHandler.cpp src/game/handlers/ShootHandler.hpp src/game/settings.hpp)
 
 add_executable(spaceInvaders ${SDL_WRAP} ${PHYSIC} ${UTILS} ${SOURCE_FILES})
 target_link_libraries(spaceInvaders ${SDL2_LIBRARY} ${SDL2_TTF_LIBRARY} ${SDL2_IMAGE_LIBRARY})

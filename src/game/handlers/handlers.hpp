@@ -7,12 +7,11 @@
 
 #include <chrono>
 
+#include "../settings.hpp"
 #include "../../physicSystem/Object.hpp"
 #include "../../physicSystem/SolidObject.hpp"
 
 #include "../../physicSystem/CollisionHandler.hpp"
-
-#define RICARICA 250
 
 using namespace std::chrono;
 

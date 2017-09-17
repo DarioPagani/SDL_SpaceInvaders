@@ -9,8 +9,7 @@
 #ifndef TESTSDL_GAME_HPP
 #define TESTSDL_GAME_HPP
 
-#define WIDTH 160
-#define HEIGTH 144
+#include "settings.hpp"
 
 namespace game
 {
@@ -26,7 +25,6 @@ public:
 private:
 	sdl::Window		gioco;
 	sdl::Font		font;
-	sdl::Texture	button;
 	SDL_Surface		*sfondoNero = SDL_CreateRGBSurface(0,WIDTH, HEIGTH, 32, 0,0,0,0x000000ff);
 	sdl::Texture	textureSfondo;
 	sdl::Texture	playerTexture;
@@ -36,6 +34,8 @@ private:
 	sdl::Texture	enemyBullet;
 
 	std::list<physic::SolidObject*> enemies;
+
+	unsigned short	lifes = PLAYER_LIFES;
 };
 
 }

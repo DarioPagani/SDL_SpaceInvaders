@@ -6,6 +6,7 @@
 #include <algorithm>
 #include "game.hpp"
 #include "handlers/handlers.hpp"
+#include "handlers/ShootHandler.hpp"
 
 namespace game
 {
@@ -15,25 +16,27 @@ namespace invaders
 // ROBA DELLA CLASSE
 /** Create a Window with space invaders inside! **/
 Invaders::Invaders():
-gioco("SpaceInvadersAustrungarici", WIDTH*4, HEIGTH*4, WIDTH, HEIGTH),
+gioco("SpaceInvadersAustrungarici", WINDOW_BASE_WIDTH, WINDOW_BASE_HEIGHT, WIDTH, HEIGTH),
 font("./asset/sample.ttf", 12),
-button(font.convertStr(gioco, "Press SPACE to Begin!")),
 textureSfondo(sfondoNero, gioco),
 playerTexture("./asset/spaceClonePlayer.png", gioco),
 enemySheet("./asset/spaceCloneEnemies.png", gioco,4,1),
 enemyBullet("./asset/spaceCloneBulletE.png",gioco),
 playerBullet("./asset/spaceCloneBullet.png",gioco)
 {
-	button.setAnchor(0x7F, 0X7F);
-	button.setPosition(WIDTH/2, HEIGTH/2);
 }
 
 int Invaders::run()
 {
 	// Variabili
+	sdl::Texture begingText(font.convertStr(gioco, "Press SPACE to Begin!"));
+	begingText.setAnchor(0x7F, 0x7F);
+	begingText.setPosition(WIDTH/2, HEIGTH/2);
+
 	menuHandler wait;
 	gameHandler gameHandler_t;
 	std::list <physic::SolidObject *> proiettili;
+	std::list <physic::SolidObject *> proiettiliNemici;
 	physic::SolidObject giocatore(playerTexture, playerTexture.getPosition().w, playerTexture.getPosition().h);
 	giocatore.setAnchor(0x7F, 0x7F);
 	giocatore.setPosition(WIDTH/2,130);
@@ -46,8 +49,11 @@ int Invaders::run()
 	gameHandler_t.giocatore = &giocatore;
 	gameHandler_t.enemies = &enemies;
 
-	//gioco.setWindowFullscreen(true);
-	//gioco.setWindowDimension(1920, 1080);
+	ShootHandler shootHandler;
+	shootHandler.enemies = &enemies;
+	shootHandler.proiettili = &proiettiliNemici;
+
+	//gioco.setWindowFullscreen(WINDOW_IS_FULLSCREEN);
 	gioco.setVisible(true);
 	gioco.setHandler(&wait);
 
@@ -55,7 +61,7 @@ int Invaders::run()
 	{
 		gioco.clearFrame();
 		if(time(nullptr) % 2)
-			gioco << button;
+			gioco << begingText;
 
 		gioco.paintFrame();
 	}
@@ -68,7 +74,7 @@ int Invaders::run()
 			const_cast<sdl::Texture &>(nemico->getTexture()).setFrame(y);
 			nemico->setPosition((20.0*x) + 2*y + 10,1+20.0*y);
 			nemico->setHandler(&collisionHandler);
-			nemico->setSpeed(5,1);
+			nemico->setSpeed(ENEMY_MOVING_SPEED,ENEMY_DESCENDING_SPEED);
 			enemies.push_back(nemico);
 		}
 
@@ -86,6 +92,7 @@ int Invaders::run()
 
 		giocatore.update();
 		gameHandler_t.clean();
+		shootHandler.shoot();
 
 		gioco << enemies << proiettili << giocatore;
 		gioco.paintFrame();

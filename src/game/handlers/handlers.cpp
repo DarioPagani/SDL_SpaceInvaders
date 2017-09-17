@@ -36,13 +36,13 @@ void gameHandler::onObjectBound(physic::SolidObject &source, const physic::Objec
 
 void gameHandler::keys(sdl::Window &source, const Uint8 *keys)
 {
-	if(keys[SDL_SCANCODE_SPACE] && ((lastShoot + milliseconds(RICARICA)) < high_resolution_clock::now()))
+	if(keys[SDL_SCANCODE_SPACE] && ((lastShoot + SHOOT_TIMING_PLAYER) < high_resolution_clock::now()))
 	{
 		physic::SolidObject *sparo = new physic::SolidObject(*playerBullet, playerBullet->getPosition().w,
 															 playerBullet->getPosition().h);
 		sparo->setAnchor(0x7F, 0x7F);
 		sparo->setPosition(giocatore->getPosition().x + giocatore->getPosition().w/2, giocatore->getPosition().y);
-		sparo->setSpeed(0, -60);
+		sparo->setSpeed(0, PLAYER_BULLET_SPEED);
 		sparo->setHandler(this);
 		proiettili->push_back(sparo);
 
