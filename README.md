@@ -10,4 +10,4 @@ An implementation of Space Invaders in SDL, written in C/C++
 ## How to run
 
 ## License
-See [LICENSE.md](LICENSE.md) file
+See the [LICENSE](LICENSE) file
