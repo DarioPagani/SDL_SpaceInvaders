@@ -7,12 +7,12 @@ An implementation of Space Invaders in SDL, written in C/C++
 #### Requirements
 | Package           | Version    | APT Url                                                                  |
 |:------------------|:----------:|-------------------------------------------------------------------------:|
-| GIT (for cloning) |            | <a onclick="window.open('apt://git', '_self');">INSTALL</a>              |
-| build-essential   | gcc >= 5.4 | <a onclick="window.open('apt://build-essential', '_self');">INSTALL</a>  |
-| CMake             | >= 3.5     | <a onclick="window.open('apt://cmake', '_self');">INSTALL</a>            |
-| SDL2              | >= 2.0     | <a onclick="window.open('apt://libsdl2-dev', '_self');">INSTALL</a>      |
-| SDL2 TTF          | >= 2.0     | <a onclick="window.open('apt://libsdl2-ttf-dev', '_self');">INSTALL</a>  |
-| SDL2 IMAGE        | >= 2.0     | <a onclick="window.open('apt://libsdl2-image-dev', '_self');">INSTALL</a>|
+| GIT (for cloning) |            | <a href="apt://git">INSTALL</a>              |
+| build-essential   | gcc >= 5.4 | <a href="apt://build-essential">INSTALL</a>  |
+| CMake             | >= 3.5     | <a href="apt://cmake">INSTALL</a>            |
+| SDL2              | >= 2.0     | <a href="apt://libsdl2-dev">INSTALL</a>      |
+| SDL2 TTF          | >= 2.0     | <a href="apt://libsdl2-ttf-dev">INSTALL</a>  |
+| SDL2 IMAGE        | >= 2.0     | <a href="apt://libsdl2-image-dev">INSTALL</a>|
 
 #### Cloning
 Open a Terminal window, if you want move into a folder and run
