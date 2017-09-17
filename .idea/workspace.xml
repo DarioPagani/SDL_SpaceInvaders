@@ -12,9 +12,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18d508be-d56f-4129-9ca4-1b71864713b9" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/game/game.cpp" afterPath="$PROJECT_DIR$/src/game/game.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/game/game.hpp" afterPath="$PROJECT_DIR$/src/game/game.hpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/game/handlers/handlers.cpp" afterPath="$PROJECT_DIR$/src/game/handlers/handlers.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/game/handlers/handlers.hpp" afterPath="$PROJECT_DIR$/src/game/handlers/handlers.hpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/src/main.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/physicSystem/CollisionHandler.hpp" afterPath="$PROJECT_DIR$/src/physicSystem/CollisionHandler.hpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/physicSystem/Object.cpp" afterPath="$PROJECT_DIR$/src/physicSystem/Object.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/physicSystem/Object.hpp" afterPath="$PROJECT_DIR$/src/physicSystem/Object.hpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/physicSystem/SolidObject.cpp" afterPath="$PROJECT_DIR$/src/physicSystem/SolidObject.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/physicSystem/SolidObject.hpp" afterPath="$PROJECT_DIR$/src/physicSystem/SolidObject.hpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sdlWrap/EventHanlder.hpp" afterPath="$PROJECT_DIR$/src/sdlWrap/EventHanlder.hpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sdlWrap/Exception.cpp" afterPath="$PROJECT_DIR$/src/sdlWrap/Exception.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sdlWrap/Exception.hpp" afterPath="$PROJECT_DIR$/src/sdlWrap/Exception.hpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sdlWrap/Texture.cpp" afterPath="$PROJECT_DIR$/src/sdlWrap/Texture.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sdlWrap/Texture.hpp" afterPath="$PROJECT_DIR$/src/sdlWrap/Texture.hpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sdlWrap/TextureUtilis.cpp" afterPath="$PROJECT_DIR$/src/sdlWrap/TextureUtilis.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sdlWrap/Window.cpp" afterPath="$PROJECT_DIR$/src/sdlWrap/Window.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sdlWrap/Window.hpp" afterPath="$PROJECT_DIR$/src/sdlWrap/Window.hpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sdlWrap/sdlWrap.hpp" afterPath="$PROJECT_DIR$/src/sdlWrap/sdlWrap.hpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sdlWrap/string/Font.cpp" afterPath="$PROJECT_DIR$/src/sdlWrap/string/Font.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sdlWrap/string/Font.hpp" afterPath="$PROJECT_DIR$/src/sdlWrap/string/Font.hpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sdlWrap/utils.cpp" afterPath="$PROJECT_DIR$/src/sdlWrap/utils.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/utils/utils.cpp" afterPath="$PROJECT_DIR$/src/utils/utils.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/utils/utils.hpp" afterPath="$PROJECT_DIR$/src/utils/utils.hpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,75 +48,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="utils.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sdlWrap/utils.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-              <folding>
-                <element signature="e#647#841#0" expanded="false" />
-                <element signature="e#843#880#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="handlers.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game/handlers/handlers.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="51" column="4" lean-forward="false" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="handlers.hpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game/handlers/handlers.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="17" />
-              <folding>
-                <element signature="e#99#116#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sdlWrap.hpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sdlWrap/sdlWrap.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -110,7 +65,13 @@
       <find>sono qu</find>
       <find>std::lroun</find>
       <find>../</find>
+      <find>src</find>
+      <find>${CMAKE_SOURCE_DIR}</find>
     </findStrings>
+    <replaceStrings>
+      <replace>${CMAKE_SOURCE_DIR}</replace>
+      <replace>src</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/game</dir>
     </dirStrings>
@@ -151,8 +112,8 @@
         <option value="$PROJECT_DIR$/game/handlers/handlers.cpp" />
         <option value="$PROJECT_DIR$/sdlWrap/utils.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -190,22 +151,6 @@
               <item name="spaceInvaders" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="spaceInvaders" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="spaceInvaders" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="spaceInvaders" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spaceInvaders" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="spaceInvaders" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="handlers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spaceInvaders" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="spaceInvaders" type="462c0819:PsiDirectoryNode" />
-              <item name="sdlWrap" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -219,119 +164,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/sdlWrap/string" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/LICENSE</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/README.md</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -382,6 +217,7 @@
       <workItem from="1505577972964" duration="1906000" />
       <workItem from="1505637904623" duration="349000" />
       <workItem from="1505638690131" duration="1660000" />
+      <workItem from="1505663305006" duration="583000" />
     </task>
     <task id="LOCAL-00001" summary="Now fullscreen resolution is autodetect, no more hardcoded 1920x1080 :P">
       <created>1505639562790</created>
@@ -394,19 +230,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37968000" />
+    <option name="totallyTimeSpent" value="38551000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959569" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959569" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22233607" sideWeight="0.91644204" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22233607" sideWeight="0.91644204" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924336" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32889345" sideWeight="0.5040431" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889345" sideWeight="0.49595687" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889345" sideWeight="0.49595687" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -444,56 +279,42 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sdlWrap/Window.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="72" column="50" lean-forward="false" selection-start-line="72" selection-start-column="50" selection-end-line="72" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/physicSystem/SolidObject.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/physicSystem/SolidObject.cpp">
+    <entry file="file://$PROJECT_DIR$/src/physicSystem/SolidObject.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1919">
           <caret line="101" column="52" lean-forward="false" selection-start-line="101" selection-start-column="52" selection-end-line="101" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sdlWrap/Texture.hpp">
+    <entry file="file://$PROJECT_DIR$/src/sdlWrap/Texture.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="779">
           <caret line="41" column="47" lean-forward="true" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sdlWrap/Texture.cpp">
+    <entry file="file://$PROJECT_DIR$/src/sdlWrap/Texture.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2337">
           <caret line="123" column="18" lean-forward="false" selection-start-line="123" selection-start-column="18" selection-end-line="123" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/physicSystem/Object.cpp">
+    <entry file="file://$PROJECT_DIR$/src/physicSystem/Object.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1273">
           <caret line="67" column="6" lean-forward="false" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -507,14 +328,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/physicSystem/Object.cpp">
+    <entry file="file://$PROJECT_DIR$/src/physicSystem/Object.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1273">
           <caret line="67" column="6" lean-forward="false" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -555,14 +376,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sdlWrap/string/string.hpp" />
     <entry file="file://$PROJECT_DIR$/sdlWrap/string/string.cpp" />
-    <entry file="file://$PROJECT_DIR$/sdlWrap/Exception.cpp">
+    <entry file="file://$PROJECT_DIR$/src/sdlWrap/Exception.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sdlWrap/Exception.hpp">
+    <entry file="file://$PROJECT_DIR$/src/sdlWrap/Exception.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-193">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -583,7 +404,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sdlWrap/Texture.hpp">
+    <entry file="file://$PROJECT_DIR$/src/sdlWrap/Texture.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="64" column="33" lean-forward="false" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="33" />
@@ -595,14 +416,14 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sdlWrap/string/Font.hpp">
+    <entry file="file://$PROJECT_DIR$/src/sdlWrap/string/Font.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="21" column="100" lean-forward="false" selection-start-line="21" selection-start-column="97" selection-end-line="21" selection-end-column="100" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sdlWrap/string/Font.cpp">
+    <entry file="file://$PROJECT_DIR$/src/sdlWrap/string/Font.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
@@ -628,7 +449,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/physicSystem/SolidObject.cpp">
+    <entry file="file://$PROJECT_DIR$/src/physicSystem/SolidObject.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
@@ -649,56 +470,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/physicSystem/SolidObject.hpp">
+    <entry file="file://$PROJECT_DIR$/src/physicSystem/SolidObject.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
           <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sdlWrap/Window.cpp">
+    <entry file="file://$PROJECT_DIR$/src/sdlWrap/Window.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="586">
           <caret line="201" column="34" lean-forward="false" selection-start-line="201" selection-start-column="34" selection-end-line="201" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sdlWrap/Window.hpp">
+    <entry file="file://$PROJECT_DIR$/src/sdlWrap/Window.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-193">
           <caret line="34" column="42" lean-forward="false" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sdlWrap/Texture.cpp">
+    <entry file="file://$PROJECT_DIR$/src/sdlWrap/Texture.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="548">
           <caret line="73" column="25" lean-forward="false" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/physicSystem/Object.cpp">
+    <entry file="file://$PROJECT_DIR$/src/physicSystem/Object.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
           <caret line="107" column="30" lean-forward="false" selection-start-line="107" selection-start-column="19" selection-end-line="107" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sdlWrap/EventHanlder.hpp">
+    <entry file="file://$PROJECT_DIR$/src/sdlWrap/EventHanlder.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="22" column="65" lean-forward="false" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game/game.hpp">
+    <entry file="file://$PROJECT_DIR$/src/game/game.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game/game.cpp">
+    <entry file="file://$PROJECT_DIR$/src/game/game.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1653">
           <caret line="87" column="30" lean-forward="false" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
@@ -706,24 +527,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/physicSystem/Object.hpp">
+    <entry file="file://$PROJECT_DIR$/src/physicSystem/Object.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
           <caret line="71" column="31" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sdlWrap/sdlWrap.hpp">
+    <entry file="file://$PROJECT_DIR$/src/sdlWrap/sdlWrap.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
+        <state relative-caret-position="418">
           <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game/handlers/handlers.hpp">
+    <entry file="file://$PROJECT_DIR$/src/game/handlers/handlers.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
+        <state relative-caret-position="494">
           <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="17" />
           <folding>
             <element signature="e#99#116#0" expanded="true" />
@@ -731,7 +552,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
@@ -741,17 +562,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game/handlers/handlers.cpp">
+    <entry file="file://$PROJECT_DIR$/src/sdlWrap/utils.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="51" column="4" lean-forward="false" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sdlWrap/utils.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
+        <state relative-caret-position="266">
           <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
           <folding>
             <element signature="e#647#841#0" expanded="false" />
@@ -761,17 +574,50 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/handlers/handlers.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="51" column="4" lean-forward="false" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2565">
+          <caret line="177" column="0" lean-forward="true" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/test.cpp.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+        <state relative-caret-position="108">
+          <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
           <folding />
         </state>
       </provider>

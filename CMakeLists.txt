@@ -14,11 +14,11 @@ include_directories(${SDL2_INCLUDE_DIR})
 include_directories(${SDL2_TTF_INCLUDE_DIR})
 include_directories(${SDL2_IMAGE_INCLUDE_DIR})
 
-set(UTILS utils/utils.cpp utils/utils.hpp)
-set(SDL_WRAP sdlWrap/Texture.hpp sdlWrap/Exception.hpp sdlWrap/Exception.cpp sdlWrap/Texture.cpp sdlWrap/sdlWrap.hpp sdlWrap/Window.cpp sdlWrap/Window.hpp sdlWrap/TextureUtilis.cpp sdlWrap/EventHanlder.hpp sdlWrap/utils.cpp sdlWrap/string/Font.cpp sdlWrap/string/Font.hpp)
-set(PHYSIC physicSystem/Object.hpp physicSystem/Object.cpp physicSystem/SolidObject.cpp physicSystem/SolidObject.hpp physicSystem/CollisionHandler.hpp)
+set(UTILS src/utils/utils.cpp src/utils/utils.hpp)
+set(SDL_WRAP src/sdlWrap/Texture.hpp src/sdlWrap/Exception.hpp src/sdlWrap/Exception.cpp src/sdlWrap/Texture.cpp src/sdlWrap/sdlWrap.hpp src/sdlWrap/Window.cpp src/sdlWrap/Window.hpp src/sdlWrap/TextureUtilis.cpp src/sdlWrap/EventHanlder.hpp src/sdlWrap/utils.cpp src/sdlWrap/string/Font.cpp src/sdlWrap/string/Font.hpp)
+set(PHYSIC src/physicSystem/Object.hpp src/physicSystem/Object.cpp src/physicSystem/SolidObject.cpp src/physicSystem/SolidObject.hpp src/physicSystem/CollisionHandler.hpp)
 
-set(SOURCE_FILES main.cpp game/game.cpp game/game.hpp game/handlers/handlers.cpp game/handlers/handlers.hpp)
+set(SOURCE_FILES src/main.cpp src/game/game.cpp src/game/game.hpp src/game/handlers/handlers.cpp src/game/handlers/handlers.hpp)
 
 add_executable(spaceInvaders ${SDL_WRAP} ${PHYSIC} ${UTILS} ${SOURCE_FILES})
 target_link_libraries(spaceInvaders ${SDL2_LIBRARY} ${SDL2_TTF_LIBRARY} ${SDL2_IMAGE_LIBRARY})
