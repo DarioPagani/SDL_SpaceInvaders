@@ -5,14 +5,14 @@ An implementation of Space Invaders in SDL, written in C/C++
 
 ### Ubuntu and others GNU+Linux
 #### Requirements
-| Package           | Version    | APT Url                                                           |
-|:------------------|:----------:|------------------------------------------------------------------:|
-| GIT (for cloning) |            | [INSTALL](dariopagani.github.io/aptUrl.html?pkg=git)              |
-| build-essential   | gcc >= 5.4 | [INSTALL](dariopagani.github.io/aptUrl.html?pkg=build-essential)  |
-| CMake             | >= 3.5     | [INSTALL](dariopagani.github.io/aptUrl.html?pkg=cmake)            |
-| SDL2              | >= 2.0     | [INSTALL](dariopagani.github.io/aptUrl.html?pkg=libsdl2-dev)      |
-| SDL2 TTF          | >= 2.0     | [INSTALL](dariopagani.github.io/aptUrl.html?pkg=libsdl2-ttf-dev)  |
-| SDL2 IMAGE        | >= 2.0     | [INSTALL](dariopagani.github.io/aptUrl.html?pkg=libsdl2-image-dev)|
+| Package           | Version    | APT Url                                                                  |
+|:------------------|:----------:|-------------------------------------------------------------------------:|
+| GIT (for cloning) |            | [INSTALL](http://dariopagani.github.io/aptUrl.html?pkg=git)              |
+| build-essential   | gcc >= 5.4 | [INSTALL](http://dariopagani.github.io/aptUrl.html?pkg=build-essential)  |
+| CMake             | >= 3.5     | [INSTALL](http://dariopagani.github.io/aptUrl.html?pkg=cmake)            |
+| SDL2              | >= 2.0     | [INSTALL](http://dariopagani.github.io/aptUrl.html?pkg=libsdl2-dev)      |
+| SDL2 TTF          | >= 2.0     | [INSTALL](http://dariopagani.github.io/aptUrl.html?pkg=libsdl2-ttf-dev)  |
+| SDL2 IMAGE        | >= 2.0     | [INSTALL](http://dariopagani.github.io/aptUrl.html?pkg=libsdl2-image-dev)|
 
 #### Cloning
 Open a Terminal window, if you want move into a folder and run
