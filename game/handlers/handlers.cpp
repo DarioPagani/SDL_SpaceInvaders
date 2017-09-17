@@ -79,7 +79,7 @@ void gameHandler::clean()
 		delete i;
 	}
 
-	for (auto &cmake-build-debugi : toDelP)
+	for (auto &i : toDelP)
 	{
 		proiettili->remove(i);
 		delete i;
@@ -87,4 +87,30 @@ void gameHandler::clean()
 
 	toDelP.clear();
 	toDel.clear();
+}
+
+void menuHandler::onKey(sdl::Window &source, const SDL_KeyboardEvent &where)
+{
+	exitHanlder::onKey(source, where);
+	pressed = where.keysym.sym == SDLK_SPACE;
+}
+
+void exitHanlder::onKey(sdl::Window &source, const SDL_KeyboardEvent &where)
+{
+	if(where.keysym.sym != SDLK_F11)
+		return;
+
+	if(source.isFullscreen())
+	{
+		source.setWindowFullscreen(false);
+		source.setWindowDimensions(oldPos);
+	}
+	else
+	{
+		oldPos = source.getWindowDimensions();
+		SDL_DisplayMode res = sdl::getCurrentDisplayMode();
+		source.setWindowDimension(res.w, res.h);
+		source.setWindowFullscreen(true);
+	}
+
 }

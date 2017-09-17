@@ -28,24 +28,7 @@ class exitHanlder: public sdl::window::EventHandler
 {
 public:
 	void onQuit(sdl::Window &source, const SDL_QuitEvent &quitEvent) override { source.dispose(); }
-	void onKey(sdl::Window &source, const SDL_KeyboardEvent &where) override
-	{
-		if(where.keysym.sym != SDLK_F11)
-			return;
-
-		if(source.isFullscreen())
-		{
-			source.setWindowFullscreen(false);
-			source.setWindowDimensions(oldPos);
-		}
-		else
-		{
-			oldPos = source.getWindowDimensions();
-			source.setWindowDimension(1920, 1080);
-			source.setWindowFullscreen(true);
-		}
-
-	}
+	void onKey(sdl::Window &source, const SDL_KeyboardEvent &where) override;
 
 private:
 	SDL_Rect oldPos;
@@ -55,11 +38,7 @@ class menuHandler: public exitHanlder
 {
 public:
 	bool timeToGo() { return pressed; };
-	void onKey(sdl::Window &source, const SDL_KeyboardEvent &where) override
-	{
-		exitHanlder::onKey(source, where);
-		pressed = where.keysym.sym == SDLK_SPACE;
-	}
+	void onKey(sdl::Window &source, const SDL_KeyboardEvent &where) override;
 
 private:
 	bool pressed = 0;

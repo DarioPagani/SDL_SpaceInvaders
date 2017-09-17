@@ -52,4 +52,15 @@ bool isRunning()
 	return running;
 }
 
+SDL_DisplayMode getCurrentDisplayMode()
+{
+	SDL_DisplayMode toRet = {0};
+
+	for(int i = 0; i < SDL_GetNumVideoDisplays(); i++)
+		if(SDL_GetCurrentDisplayMode(i, &toRet) == 0)
+			return toRet;
+
+	return toRet;
+}
+
 }

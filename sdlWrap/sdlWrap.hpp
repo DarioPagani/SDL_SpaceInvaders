@@ -7,6 +7,8 @@
 
 #pragma GCC diagnostic ignored "-Wreorder"
 
+#include <SDL_video.h>
+
 namespace sdl
 {
 class Exception;
@@ -18,6 +20,7 @@ class Texture;
 int init() throw();
 void dispose();
 bool isRunning();
+SDL_DisplayMode getCurrentDisplayMode();
 
 }
 
