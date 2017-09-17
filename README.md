@@ -1,3 +1,9 @@
+<script>
+function install(name)
+{
+    window.open("apt://" + name,"_self");
+}
+</script>
 # Space Invaders in SDL 2
 An implementation of Space Invaders in SDL, written in C/C++
 
@@ -5,14 +11,14 @@ An implementation of Space Invaders in SDL, written in C/C++
 
 ### Ubuntu and others GNU+Linux
 #### Requirements
-| Package           | Version    | APT Url                           |
-|:------------------|:----------:|----------------------------------:|
-| GIT (for cloning) |            | [INSTALL](apt://git)              |
-| build-essential   | gcc >= 5.4 | [INSTALL](apt://build-essential)  |
-| CMake             | >= 3.5     | [INSTALL](apt://cmake)            |
-| SDL2              | >= 2.0     | [INSTALL](apt://libsdl2-dev)      |
-| SDL2 TTF          | >= 2.0     | [INSTALL](apt://libsdl2-ttf-dev)  |
-| SDL2 IMAGE        | >= 2.0     | [INSTALL](apt://libsdl2-image-dev)|
+| Package           | Version    | APT Url                                |
+|:------------------|:----------:|---------------------------------------:|
+| GIT (for cloning) |            | <a onclick="install('git')">INSTALL</a>|
+| build-essential   | gcc >= 5.4 | [INSTALL](apt://build-essential)       |
+| CMake             | >= 3.5     | [INSTALL](apt://cmake)                 |
+| SDL2              | >= 2.0     | [INSTALL](apt://libsdl2-dev)           |
+| SDL2 TTF          | >= 2.0     | [INSTALL](apt://libsdl2-ttf-dev)       |
+| SDL2 IMAGE        | >= 2.0     | [INSTALL](apt://libsdl2-image-dev)     |
 
 #### Cloning
 Open a Terminal window, if you want move into a folder and run

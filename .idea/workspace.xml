@@ -13,8 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="18d508be-d56f-4129-9ca4-1b71864713b9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -163,7 +161,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="64" />
+    <option name="x" value="1984" />
     <option name="y" value="-11" />
     <option name="width" value="1857" />
     <option name="height" value="1092" />
@@ -381,7 +379,7 @@
       <workItem from="1505561857254" duration="1256000" />
       <workItem from="1505577972964" duration="1906000" />
       <workItem from="1505637904623" duration="349000" />
-      <workItem from="1505638690131" duration="1660000" />
+      <workItem from="1505638690131" duration="1703000" />
     </task>
     <task id="LOCAL-00001" summary="Now fullscreen resolution is autodetect, no more hardcoded 1920x1080 :P">
       <created>1505639562790</created>
@@ -390,14 +388,21 @@
       <option name="project" value="LOCAL" />
       <updated>1505639562790</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Change Cmake version from 3.8 to 3.5">
+      <created>1505640386711</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1505640386711</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37968000" />
+    <option name="totallyTimeSpent" value="38011000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <frame x="1984" y="-11" width="1857" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959569" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -430,7 +435,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Now fullscreen resolution is autodetect, no more hardcoded 1920x1080 :P" />
-    <option name="LAST_COMMIT_MESSAGE" value="Now fullscreen resolution is autodetect, no more hardcoded 1920x1080 :P" />
+    <MESSAGE value="Change Cmake version from 3.8 to 3.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change Cmake version from 3.8 to 3.5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
